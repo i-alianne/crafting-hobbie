@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ff8866ab;
+  background: white;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px 15px;
+  transition: all 200ms ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #ff8866ab;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.theme-button {
+  background: black;
+  color: white;
+  font-size: 14px;
+  border: none;
+}
+
+.theme-button:hover {
+  background: white;
+  color: black;
+  transform: none;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.grid img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: all 200ms ease-in-out;
+}
+
+.grid img:hover {
+  transform: scale(1.1);
+}
+
+.origami-intro-picture {
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+
+.origami-intro-picture:hover {
+  filter: contrast(50%);
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.dark {
+  background: linear-gradient(
+    178.6deg,
+    rgb(20, 36, 50) 11.8%,
+    rgb(124, 143, 161) 83.8%
+  );
+  color: white;
+}
+
+.dark .container {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dark button {
+  background: white;
+  color: black;
+}
+
+.dark button:hover {
+  background: #e6b980;
+  color: white;
+}
